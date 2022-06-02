@@ -1,4 +1,6 @@
-//Exemplo da Aula
+//Exemplos da Aula
+
+//Assuntos: Constantes - Tipos Primitivos - Tipagem Dinâmica - Objetos
 
 // let nome = 'Rafael'; //String literal
 // let idade = 25; //Number literal
@@ -19,7 +21,7 @@
 //-------------------------------------------------------------------------
 
 
-//Exercicio 2
+//Exercicio
 
 let nome = 'Danilo';
 let sobreNome = 'S Souza';
