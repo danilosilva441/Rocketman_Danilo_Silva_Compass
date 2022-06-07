@@ -96,7 +96,7 @@ let podeAplicar = maiorDeIdade || possuiCarteiraDeTrabalho;
 console.log(podeAplicar);
 
 //              Operador:  NOT == (!)
-*/
+
 console.log(true   && !true);
 console.log(true   && !false);
 
@@ -108,6 +108,28 @@ console.log('Pode aplicar: ', podeAplicar);
 
 let candidatoRecusado = !podeAplicar;
 console.log('Candidato Recusado!', candidatoRecusado);
+
+
+
+//__________________________________________________________________________________________            
+//Exemplos da Aula: Operadores Lógicos : Não boleano
+*/
+
+//Falsy
+//undefined
+//null
+//0
+//False
+//''
+//NaN - not a number
+
+//Truthy
+
+let corPersonalizada = 'Vermelho';
+let corPadrao = 'Azul';
+let corPerfil = corPersonalizada || corPadrao;
+
+console.log(corPerfil);
 
 
 //---------------------------------------------------------------------
