@@ -113,7 +113,7 @@ console.log('Candidato Recusado!', candidatoRecusado);
 
 //__________________________________________________________________________________________            
 //Exemplos da Aula: Operadores Lógicos : Não boleano
-*/
+
 
 //Falsy
 //undefined
@@ -130,12 +130,11 @@ let corPadrao = 'Azul';
 let corPerfil = corPersonalizada || corPadrao;
 
 console.log(corPerfil);
-
+*/
 
 //---------------------------------------------------------------------
 
 
-//Exercicio
 
 
 
