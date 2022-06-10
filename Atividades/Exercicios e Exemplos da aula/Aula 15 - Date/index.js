@@ -1,29 +1,19 @@
 /*
-//Assuntos: Template Literal
+//Assuntos: Date
 
 //__________________________________________________________________________________________            
 //Exemplos da Aula: 
 */
 
+//Date
+const data1 = new Date();
 
-const mensagem = 'Oi isso é a minha\n' +
-'\'primeir\' mensagem';
+const data2 = new Date('10 Junho 2022 13:10');
 
-// Object: {}
-// Boolean: true, false
-// String: '', ""
-// Template ``
-const outra = `Oi isso é a minha
-'primeira' mensagem`;
+const data3 = new Date(2019, 03, 06, 9, 30);
 
-const nome = 'Danilo';
+data3.setFullYear(2030);
 
-const email =
-`Olá ${nome} ${2+2}
-
-Obrigado por se inscrever no canal
-
-Para acompanhar os vídeos não se esqueça de ativar o sininho
-
-Obrigado
-Jhonatan.`;
+//data2.toDateString() - retorna data em string, no console do navegador.
+//data2.ToTimeString() - retorna informações do GMT de tempo local
+//data2.ToISOString() - retorno o formato de como deve ficar no banco de dados/servidor.
