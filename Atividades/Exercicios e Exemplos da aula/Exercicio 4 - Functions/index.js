@@ -49,7 +49,7 @@ let nomeCompleto = "Danilo Silva Souza";
 
 function nomeAbreviado(primeiroNome, segundoNomeAbr){
     nomeCompleto = primeiroNome + ' ' + segundoNomeAbr;
-};
+}
 
 console.log(nomeCompleto);
 nomeAbreviado("Danilo", "S Souza");

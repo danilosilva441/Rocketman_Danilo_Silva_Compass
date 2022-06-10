@@ -1,28 +1,22 @@
 /*
-//Assuntos:   (Mini-Projeto 3) 
+//Assuntos:   (Mini-Projeto 5) 
 
 
-// Proposta: Medido de Velocidade
+// Proposta: Par ou Impar
 
-// Velocidade máxima: 70
-// A cada 5km acima do limite você ganha 1 ponto
-// Se pontos > 12 = "Carteira Suspensa"
+// Receber uma quantidade de valores para avaliar
+// Função exibe se cada valor é PAR ou IMPAR
 
 */
 
-verificarVelocidade(130);
+exibirTipo(5);
 
-function verificarVelocidade(velocidade) {
-    const velocidadeMaxima = 70;
-    const PontosPorKm = 5;
-    if ( velocidade <= velocidadeMaxima)
-        console.log("Ok");
-    else{
-        const pontos = Math.floor((velocidade - velocidadeMaxima) / PontosPorKm);
-        if (pontos >= 12)
-            console.log("Carteira Suspensa");
-        else    
-            console.log("Pontos: ", pontos);
+function exibirTipo(limite) {
+    for (let i = 0; i <= limite; i++){
+        if (i % 2 === 0)
+            console.log(i, 'PAR');
+        else 
+            console.log(i, 'IMPAR');
     }
 }
 

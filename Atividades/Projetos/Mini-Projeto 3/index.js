@@ -26,5 +26,5 @@ function fizzBuzz (entrada){
     if (entrada % 5 === 0 || entrada % 5 === 5)
         return "Buzz";
     return entrada;
-};
+}
 
