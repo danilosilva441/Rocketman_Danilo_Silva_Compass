@@ -1,5 +1,5 @@
 /*
-//Assuntos: Natureza dinâmica de Objetos      
+//Assuntos: Clonando Objetos  
 
 //__________________________________________________________________________________________            
 //Exemplos da Aula: 
